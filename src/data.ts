@@ -9,7 +9,7 @@ export const PersonalInfo: AboutMeData = {
   cvUri: `${process.env.PUBLIC_URL}/files/YOUR_CV.pdf`,
   links: {
     github: "https://github.com/NAME",
-      itchIO: "https://skittlekitten.itch.io/",
+    itchIO: "https://skittlekitten.itch.io/",
     linkedIn: "https://www.linkedin.com/in/daniel-murphy-aba0141ba/",
   }
 };
@@ -27,7 +27,6 @@ export const games: Game[] = [
     ],
     media: [
       { source: "/images/games/GAME_NAME/Screenshot_1.png", type: MediaType.Image },
-      { source: "https://www.youtube.com/embed/dQw4w9WgXcQ", type: MediaType.YouTube },
       { source: "/images/games/GAME_NAME/Screenshot_2.png", type: MediaType.Image },
       { source: "/images/games/GAME_NAME/Screenshot_3.png", type: MediaType.Image },
       { source: "/images/games/GAME_NAME/Screenshot_4.png", type: MediaType.Image },
