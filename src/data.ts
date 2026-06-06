@@ -9,7 +9,7 @@ export const PersonalInfo: AboutMeData = {
   cvUri: `${process.env.PUBLIC_URL}/files/YOUR_CV.pdf`,
   links: {
     github: "https://github.com/NAME",
-    itchIO: "https://NAME.itch.io",
+      itchIO: "https://skittlekitten.itch.io/",
     linkedIn: "https://www.linkedin.com/in/daniel-murphy-aba0141ba/",
   }
 };
