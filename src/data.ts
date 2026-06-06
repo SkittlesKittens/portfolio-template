@@ -1,16 +1,16 @@
 import { AboutMeData, Game, GameEngine, LinkImageSource, MediaType, Platform } from "./types";
 
 export const PersonalInfo: AboutMeData = {
-  name: "YOUR_NAME",
-  role: "YOUR_ROLE",
-  introduction: "SHORT_INTRODUCTION",
-  description: "TELL_ABOUT_YOURSELF",
+  name: "Dani_Murphy",
+  role: "Game_Developer",
+  introduction: "Hi I am Dani welcome to my portfolio I am an avid gamer who loves working through projects with fellow creators I have been developing games for 6 years and am always looking to start a new project.",
+    description: "A Scotland based Games Developer with a Bachelors from the University of the West of Scotland",
   image: `${process.env.PUBLIC_URL}/images/Profile.jpg`,
   cvUri: `${process.env.PUBLIC_URL}/files/YOUR_CV.pdf`,
   links: {
     github: "https://github.com/NAME",
     itchIO: "https://NAME.itch.io",
-    linkedIn: "https://www.linkedin.com/in/NAME",
+    linkedIn: "https://www.linkedin.com/in/daniel-murphy-aba0141ba/",
   }
 };
 
